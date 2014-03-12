@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Restaurants</title>
+    <title>Reviews</title>
 </head>
 <body>
     <h1> Yelp </h1>
