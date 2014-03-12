@@ -11,6 +11,7 @@
         <h4> Likes: <?php echo $facebook_data->likes; ?></h4>
         <h4> Checkins: <?php echo $facebook_data->checkins; ?></h4>
     <?php endif; ?>
+    <p style="border-bottom:1px solid black;"></p>
     <?php foreach ($reviews as $review): ?>
         <?php for ($i = 0; $i < $review->rating; $i++): ?>
             <?php echo HTML::image('img/star.png');?>
