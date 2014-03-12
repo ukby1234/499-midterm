@@ -5,7 +5,9 @@
 </head>
 <body>
     <h1> Yelp </h1>
-    <h2> Reviews for <?php echo $restaurant->restaurant_name; ?></h2>
+    <?php if ($restaurant): ?>
+        <h2> Reviews for <?php echo $restaurant->restaurant_name; ?></h2>
+    <?php endif;?>
     <?php if ($facebook_data): ?>
         <h3> Facebook Activity</h3>
         <h4> Likes: <?php echo $facebook_data->likes; ?></h4>
